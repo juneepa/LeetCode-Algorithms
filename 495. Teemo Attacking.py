@@ -7,6 +7,7 @@
 ## However, at the beginning of time point 2, Teemo attacks Ashe again who is already in poisoned status. 
 ## Since the poisoned status won't add up together, though the second poisoning attack will still work at time point 2, it will stop at the end of time point 3. 
 ## So you finally need to output 3.
+## Medium, 79ms, 75.41%
 
 ## Two different solutions
 
