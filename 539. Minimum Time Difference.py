@@ -4,7 +4,6 @@
 ## Example:
 ## Input: ["23:59","00:00"]
 ## Output: 1
-
 ## Medium, 86ms, 96.88%, Python3
 
 class Solution:
