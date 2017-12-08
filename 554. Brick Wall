@@ -9,3 +9,4 @@ class Solution(object):
                 spread[i] += 1
         
         return len(walls) - max(spread.values() + [0])
+ 
