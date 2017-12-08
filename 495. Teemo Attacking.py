@@ -8,6 +8,8 @@
 ## Since the poisoned status won't add up together, though the second poisoning attack will still work at time point 2, it will stop at the end of time point 3. 
 ## So you finally need to output 3.
 
+## Two different solutions
+
 class Solution(object):
     def findPoisonedDuration(self, timeSeries, duration):
         
@@ -35,3 +37,6 @@ class Solution(object):
             ans -= max(0, duration - (timeSeries[i] - timeSeries[i-1]))
             
         return ans
+
+
+
