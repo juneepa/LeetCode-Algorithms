@@ -20,3 +20,6 @@ class Solution(object):
 
         ## Simple code to return the list when the value of the number is 1 (which means it appeared only once)
         return [i for i, j in numdict.items() if j]
+
+
+
